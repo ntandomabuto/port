@@ -1,11 +1,34 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
-</template>
+  
+  <!-- <router-view/> -->
+   <navbar-comp/>
+   <home-view/>
+   <about-view/>
+   <projects-view/>
+   <contact-view/>
+   <footer-comp/>
+  <div>
 
+  </div>
+</template>
+<script>
+import HomeView from '@/views/HomeView.vue'
+import NavbarComp from './components/NavbarComp.vue'
+import AboutView from '@/views/AboutView.vue'
+import FooterComp from './components/FooterComp.vue'
+import ProjectsView from './views/ProjectsView.vue'
+import ContactView from './views/ContactView.vue'
+export default{
+  components:{
+    NavbarComp,
+    HomeView,
+    AboutView,
+    FooterComp,
+    ProjectsView,
+    ContactView
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
