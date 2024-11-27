@@ -6,6 +6,7 @@
       <h3 class="text-3xl font-bold mb-6">I am Ntando Mabuto</h3>
       <h3 class="text-3xl font-bold mb-6">{{ msg }}</h3>
       <button type="button" style="width: 30%;height: 6%;"><a href="#about"><h5> About Me</h5></a>
+        
       </button>
       </div>
 
